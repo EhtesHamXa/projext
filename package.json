@@ -2,7 +2,7 @@
     "name": "todo-ci-cd-demo",
     "version": "1.0.0",
     "scripts": {
-      "test": "echo \"No tests yet\" ",
+      "test": "node tests/test.js",
       "build": "node build.js"
     }
   }

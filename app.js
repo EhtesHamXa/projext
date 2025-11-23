@@ -9,7 +9,7 @@ function addTodo() {
     // Create delete button
     const btn = document.createElement('button');
     btn.textContent = "Delete";
-    btn.style.marginLeft = "10px";
+    btn.className = "delete-btn";
     btn.onclick = () => li.remove();
   
     li.appendChild(btn);
