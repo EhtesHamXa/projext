@@ -2,8 +2,10 @@
     "name": "todo-ci-cd-demo",
     "version": "1.0.0",
     "scripts": {
-      "test": "echo \"No tests yet\" ",
-      "build": "node build.js"
+        "test": "jest",
+        "build": "node build.js"
+    },
+    "devDependencies": {
+        "jest": "^30.2.0"
     }
-  }
-  
+}
