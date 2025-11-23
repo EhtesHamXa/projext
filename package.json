@@ -1,0 +1,9 @@
+{
+    "name": "todo-ci-cd-demo",
+    "version": "1.0.0",
+    "scripts": {
+      "test": "echo \"No tests yet\" ",
+      "build": "node build.js"
+    }
+  }
+  
